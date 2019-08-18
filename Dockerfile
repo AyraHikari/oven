@@ -1,6 +1,5 @@
 FROM debian:latest
-LABEL maintainer "Ahmad Thoriq Najahi <najahiii@outlook.co.id>"
-
+LABEL maintainer "Ayra Hikari <AyraHikari@linuxmail.org>"
 RUN apt-get update && apt-get install -y \
 	gcc \
 	libc6-dev \
